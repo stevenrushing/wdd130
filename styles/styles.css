@@ -1,3 +1,7 @@
+:root{
+  --boxshadow_color: gray;
+}
+
 main{
     max-width: 840px;
 }
