@@ -19,9 +19,29 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    text-decoration: none;
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -31,6 +51,15 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    text-decoration: none;
 }
 
 .socialmedia a {
@@ -77,3 +106,18 @@ nav, p, section, article {
   width: 125px;
   margin-left: 12px; 
 
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.history-grid img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+}
