@@ -174,4 +174,3 @@ h2 { font-size: 1.6rem; }
   .history-grid { grid-template-columns: 1fr; }
   .adventures { grid-template-columns: repeat(2, 1fr); }
 }
-footer
