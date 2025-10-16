@@ -388,7 +388,7 @@ h2 { font-size: 1.6rem; }
 }
 
 .index-newsletter h2 {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
   font-size: 1.8rem;
   margin-bottom: .5rem;
 }
