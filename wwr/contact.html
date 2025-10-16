@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Down the River for your next adventure!">
+    <title>Contact Us – Dry Oar Rafting</title>
+    <meta name="author" content="Steven Rushing rafting page for WDD130">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="Down the River Rafting logo" />
+        </a>
+
+        <nav aria-label="Primary">
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contactinfo">
+            <h2>Down the River Rafting</h2>
+            <p>1234 Adventure Lane</p>
+            <p>Explorerville, EX 56789</p>
+            <p>Email: <a href="mailto:info@downtheriver.com">info@downtheriver.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+        <section class="mapandform">
+            <div class="googlemap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d38033.70613558538!2d12.902452896113974!3d46.104964768698565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sslovenia%20river%20rafting!5e0!3m2!1sen!2sit!4v1760610802380!5m2!1sen!2sit"
+                    width="300" height="415" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contactform">
+                <form>
+                    <div class="question">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="question">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="question">
+                        <label for="purpose">Message Purpose</label>
+                        <div class="purposeradios">
+                            <input type="radio" id="inquiry" name="purpose" value="general">
+                            <label for="inquiry">General Inquiry</label>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="website" name="purpose" value="website">
+                            <label for="website">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <div class="question">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-cards">
+                <div class="employee-card">
+                    <img src="images/emp1.jpg" alt="Adam Smith">
+                    <h3>Adam Smith</h3>
+                    <p>Lead Guide</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/emp2.jpg" alt="Howard Johnson">
+                    <h3>Howard Johnson</h3>
+                    <p>Assistant Guide</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/emp3.jpg" alt="Neo Anderson">
+                    <h3>Neo Anderson</h3>
+                    <p>Assistant to the Assistant Guide</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer class=" site-footer">
+
+        <p>&copy; 2025 Down the River Rafting, Steven Rushing</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+
+    </footer>
+</body>
+
+</html>

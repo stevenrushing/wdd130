@@ -156,6 +156,168 @@ h2 { font-size: 1.6rem; }
   margin-top: .4rem;
 }
 
+.contactinfo {
+  text-align: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.mapandform {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem 5%;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.contactform {
+    
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 400px; 
+    flex-shrink: 0; 
+}
+
+.contactform label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.contactform .question {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contactform textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    resize: vertical; 
+    min-height: 80px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#message {
+  flex: 1;
+  margin-left: 0;
+}
+
+.contactform .question input[type="checkbox"] + label {
+  width: auto;
+  margin-left: 8px;
+  font-weight: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.contactform .question input[type="checkbox"] {
+  margin-left: 0;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+}
+
+.contactform .question:last-of-type {
+  align-items: center;
+}
+
+
+.purposeradios {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  row-gap: 6px;
+  align-items: center;
+}
+
+.purposeradios input[type="radio"] {
+  margin: 0;
+}
+
+
+.purposeradios label {
+  width: auto;
+  font-weight: normal;
+  display: inline;
+}
+
+
+.contactform input[type="radio"] {
+    margin-right: 8px;
+}
+
+.contactform button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  border: 2px solid var(--accent2-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contactform button:hover {
+  background-color: var(--accent2-color);
+  color: var(--secondary-color);
+}
+
+
+.googlemap {
+    width: 300px; 
+    height: 415px; 
+    background-color: white; 
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; 
+}
+
+
+.employees {
+    padding: 45px 5%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.employees h2 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.employee-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    width: 220px;
+    text-align: center;
+}
 
 .site-footer {
   display: flex; align-items: center; justify-content: space-between;
@@ -174,3 +336,4 @@ h2 { font-size: 1.6rem; }
   .history-grid { grid-template-columns: 1fr; }
   .adventures { grid-template-columns: repeat(2, 1fr); }
 }
+
